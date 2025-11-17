@@ -546,6 +546,10 @@ with col_right:
             "angle de lecture, généré à partir des cartes et des glyphes."
         )
 
+    # --- NOUVEAU : bouton Twist JDR ---
+    if drawn_cards and mode == "Impro JDR":
+        ...
+    st.markmarkdown = st.markdown  # just in case 😉
     st.markdown("---")
     st.markdown("### 📝 Espace de notes")
     st.text_area(
